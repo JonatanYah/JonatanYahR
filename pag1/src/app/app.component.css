@@ -1,0 +1,146 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100%;
+    margin: 0%;
+    
+}
+html{
+    height: 100%;
+}
+.encabezado{
+    grid-area: encabezado;
+    margin: 0;
+    background-color: #04217E;
+    text-align:left;
+    color:white;
+    font-size: 20px;
+}
+.articulo{
+    grid-area: articulo;
+    background-color: rgb(169, 163, 163);
+    text-align: center;
+    color:white;
+}
+.articulo2{
+    grid-area: articulo2;
+    background-color: rgb(255, 2, 2);
+    text-align: center;
+    color:white;
+}
+.articulo3{
+
+    grid-area: articulo3;
+    background-color: rgb(169, 163, 163);
+    text-align: center;
+    color:white;
+}
+.articulo4{
+    grid-area: articulo4;
+    background-color:#04217E;
+    text-align: center;
+    color:white;
+}
+.articulo5{
+    grid-area: articulo5;
+    background-color: rgb(169, 163, 163);
+    text-align: center;
+    color:white;
+}
+.articulo6{
+    grid-area: articulo6;
+    background-color:#04217E;
+    text-align: center;
+    color:white;
+}
+.piedep{
+    grid-area: piedep;
+    background-color:#04217E;
+    text-align: center;
+    color:white;
+}
+
+
+.gridcont{
+    
+   margin: 0px;
+   display: grid;
+   gap: 2px;
+   grid-template-rows: 50px 375px 375px;
+   grid-template-areas: 
+   "encabezado encabezado encabezado encabezado"
+   "articulo articulo articulo articulo2" 
+   "articulo3 articulo4 articulo5 articulo6"
+   "piedep piedep piedep piedep";
+   
+ }  
+
+/* Página2*/
+/*
+
+.Titulos{
+    font-size: 30px;
+    color: black;
+    margin-top:5px;
+    margin-left: 5px;
+  }
+  .titulo2{
+    font-size: 10px;
+    color: black;
+    margin-top:5px;
+    margin-left: 5px;
+    float: left;
+    width: 30%;
+ text-align: center;
+  }
+  .pie{
+   padding-bottom: 0%;
+    text-align: center;
+    display: grid;
+    height: 2rem;
+    
+  }
+  .box {
+    border: black 2px solid;
+    align-content: center;
+    font-weight: 600;
+  }
+
+
+  #articulo1{
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: black;
+  }
+  #articulo2{
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+
+    color: black;
+  }
+  #articulo3{
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 120px;
+    color: black;
+  }
+
+*/
+body{
+  background-color: green;
+}
+app-fondo{
+margin-top: 0px;
+margin-bottom: 0px;
+}

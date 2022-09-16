@@ -1,0 +1,24 @@
+.card {
+  height: 470px;
+  border-radius: 5px;
+  padding: 1em;
+}
+.boton{
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+    margin-top: 10px;
+ 
+}
+.azulado{
+  background-color: #f8f8f8;
+}
+.b1{
+  margin-top: 50px;
+}
+.b2{
+  margin-top: 70px;
+}
+.b3{
+  margin-top: 40px;
+}
